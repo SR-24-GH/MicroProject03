@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #3b4664;
+    height: 100%;
+    width: 100%;
+}
+
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caption{
+    color: #ffffff;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 32px;
+    margin-left: 27rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.result{
+    height: 12vmin ;
+    width: 80vmin;
+    border-radius: 10px;
+    box-shadow: 4px 0px 0px rgba(0,0,0,0.25%);
+    text-align: right;
+    font-family: Segoe UI;
+    font-weight: 700;
+    line-height: 73px;
+    font-size: 3rem;
+    color: #ffffff;
+    background-color: #181f32;
+    margin-top: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.input{
+    height: 70vmin;
+    width: 80vmin;
+    background-color: #252d44;
+    font-family: Inter;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.data{
+    height: 18vmin;
+    width: 18vmin;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.options{
+    height:10vmin ;
+    width: 36.5vmin;
+    gap: 2rem;
+    margin: 8px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    box-shadow:  0 1rem 0 rgba(0,0,0,0.2)
+}
+
+.btn{
+    background-color: #eae3db;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    gap:2rem;
+    margin: 8px;
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 36px;
+    color: #3b4664;
+    text-align: center;
+    height: 10vmin;
+    width: 17vmin;
+}
+
+.operation{
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 28px;
+    color: #ffffff;
+    background-color: #647299;
+}
+
+.data:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    border: 5px solid yellow;
+}
+
+#equal{
+    background-color: #d13f30;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.resClass{
+    background-color: #000000;
+}
+
+.capClass{
+    color: #1e1e1e;
+}
+
+#blankElement{
+    display: none;
+    border: none;
+    background-color: #252d44;
+    border-radius: 0;
+    box-shadow: 0 0 0;
+}
