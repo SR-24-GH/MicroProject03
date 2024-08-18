@@ -1,1 +1,1 @@
-# MicroProject03
+This repository contains code for a calculator.
